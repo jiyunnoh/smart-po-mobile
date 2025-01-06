@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005044261387",
+    "project_id": "smart-po-7583a",
+    "storage_bucket": "smart-po-7583a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005044261387:android:dcfec4a117ed79a1d0dd0e",
+        "android_client_info": {
+          "package_name": "com.example.biot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0fOgHRr9AJS_Rk8HDBhDStTsYlsg-f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

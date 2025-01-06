@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/notification_action.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/custom_dialog.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.ril.pdf_merger-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "com.ril.pdf_merger-core-1.6.0-1:/layout/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,12 @@
+com.ril.pdf_merger-jetified-window-java-1.0.0-beta04-0 /Users/jiyunnkim/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.ril.pdf_merger-core-1.6.0-1 /Users/jiyunnkim/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.ril.pdf_merger-jetified-annotation-experimental-1.1.0-2 /Users/jiyunnkim/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.ril.pdf_merger-jetified-window-1.0.0-beta04-3 /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.ril.pdf_merger-main-4 /Users/jiyunnkim/.pub-cache/hosted/pub.dev/pdf_merger-0.0.6/android/src/main/res
+com.ril.pdf_merger-release-5 /Users/jiyunnkim/.pub-cache/hosted/pub.dev/pdf_merger-0.0.6/android/src/release/res
+com.ril.pdf_merger-pngs-6 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/generated/res/pngs/release
+com.ril.pdf_merger-resValues-7 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/generated/res/resValues/release
+com.ril.pdf_merger-rs-8 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/generated/res/rs/release
+com.ril.pdf_merger-mergeReleaseResources-9 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ril.pdf_merger-mergeReleaseResources-10 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ril.pdf_merger-merged_res-11 /Users/jiyunnkim/Projects/smart-po-mobile/build/pdf_merger/intermediates/merged_res/release

@@ -1,0 +1,14 @@
+com.tundralabs.fluttertts.flutter_tts-jetified-window-java-1.0.0-beta04-0 /Users/jiyunnkim/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-core-1.8.0-1 /Users/jiyunnkim/.gradle/caches/transforms-3/270e9501dde0430a83746f97bf9ab544/transformed/core-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-lifecycle-runtime-2.3.1-2 /Users/jiyunnkim/.gradle/caches/transforms-3/76da31ad033c53187dd7271282d0f7d2/transformed/lifecycle-runtime-2.3.1/res
+com.tundralabs.fluttertts.flutter_tts-jetified-annotation-experimental-1.1.0-3 /Users/jiyunnkim/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.tundralabs.fluttertts.flutter_tts-jetified-core-ktx-1.8.0-4 /Users/jiyunnkim/.gradle/caches/transforms-3/b431c95aeca551584d4466c6f05603c2/transformed/jetified-core-ktx-1.8.0/res
+com.tundralabs.fluttertts.flutter_tts-jetified-window-1.0.0-beta04-5 /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.tundralabs.fluttertts.flutter_tts-main-6 /Users/jiyunnkim/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/main/res
+com.tundralabs.fluttertts.flutter_tts-release-7 /Users/jiyunnkim/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/android/src/release/res
+com.tundralabs.fluttertts.flutter_tts-pngs-8 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/generated/res/pngs/release
+com.tundralabs.fluttertts.flutter_tts-resValues-9 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/generated/res/resValues/release
+com.tundralabs.fluttertts.flutter_tts-rs-10 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/generated/res/rs/release
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-11 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tundralabs.fluttertts.flutter_tts-mergeReleaseResources-12 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tundralabs.fluttertts.flutter_tts-merged_res-13 /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_tts/intermediates/merged_res/release

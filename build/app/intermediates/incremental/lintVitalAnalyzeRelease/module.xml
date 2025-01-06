@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/jiyunnkim/Projects/smart-po-mobile/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.2.0"
+    buildFolder="/Users/jiyunnkim/Projects/smart-po-mobile/build/app"
+    bootClassPath="/Users/jiyunnkim/Library/Android/sdk/platforms/android-34/android.jar:/Users/jiyunnkim/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

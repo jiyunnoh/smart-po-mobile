@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.orthocareinnovations.smartpo"
+4    android:versionCode="97"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <queries>
+13-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:35:5-40:15
+14        <intent>
+14-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:36:9-39:18
+15            <action android:name="android.intent.action.SENDTO" />
+15-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:37:13-67
+15-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:37:21-64
+16
+17            <data android:scheme="mailto" />
+17-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:38:13-45
+17-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:38:19-42
+18        </intent>
+19    </queries>
+20
+21    <uses-permission
+21-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-12:38
+22        android:name="android.permission.READ_EXTERNAL_STORAGE"
+22-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-64
+23        android:maxSdkVersion="32" />
+23-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-35
+24    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+24-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-76
+24-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-73
+25    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+25-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:14:5-75
+25-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:14:22-72
+26    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+26-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-75
+26-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:15:22-72
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[:connectivity_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+27-->[:connectivity_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+30        android:name="com.orthocareinnovations.smartpo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.orthocareinnovations.smartpo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+34
+35    <application
+36        android:name="android.app.Application"
+36-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:6:9-42
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.10.1] /Users/jiyunnkim/.gradle/caches/transforms-3/9c9ab1a476c120097a79d748cec7161f/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:7:9-43
+39        android:label="biot" >
+39-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:5:9-29
+40        <activity
+40-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:8:9-28:20
+41            android:name="com.example.biot.MainActivity"
+41-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:9:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:13:13-163
+43            android:exported="true"
+43-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:10:13-36
+44            android:hardwareAccelerated="true"
+44-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:14:13-47
+45            android:launchMode="singleTop"
+45-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:11:13-43
+46            android:theme="@style/LaunchTheme"
+46-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:12:13-47
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:15:13-55
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+55-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:20:13-23:17
+56                android:name="io.flutter.embedding.android.NormalTheme"
+56-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:21:15-70
+57                android:resource="@style/NormalTheme" />
+57-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:22:15-52
+58
+59            <intent-filter>
+59-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:24:13-27:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:25:17-68
+60-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:25:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:26:17-76
+62-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:26:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:31:9-33:33
+70            android:name="flutterEmbedding"
+70-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:32:13-44
+71            android:value="2" />
+71-->/Users/jiyunnkim/Projects/smart-po-mobile/android/app/src/main/AndroidManifest.xml:33:13-30
+72
+73        <provider
+73-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-27:20
+74            android:name="com.crazecoder.openfile.FileProvider"
+74-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-64
+75            android:authorities="com.orthocareinnovations.smartpo.fileProvider.com.crazecoder.openfile"
+75-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-88
+76            android:exported="false"
+76-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+77            android:grantUriPermissions="true" >
+77-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+78            <meta-data
+78-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:53
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-67
+80                android:resource="@xml/filepaths" />
+80-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-50
+81        </provider>
+82        <provider
+82-->[:flutter_email_sender] /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_email_sender/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+83            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+83-->[:flutter_email_sender] /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_email_sender/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+84            android:authorities="com.orthocareinnovations.smartpo.file_provider"
+84-->[:flutter_email_sender] /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_email_sender/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-65
+85            android:exported="false"
+85-->[:flutter_email_sender] /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_email_sender/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+86            android:grantUriPermissions="true" >
+86-->[:flutter_email_sender] /Users/jiyunnkim/Projects/smart-po-mobile/build/flutter_email_sender/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+87            <meta-data
+87-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:53
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-67
+89                android:resource="@xml/shared_file_paths" />
+89-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-50
+90        </provider>
+91        <!--
+92           Declares a provider which allows us to store files to share in
+93           '.../caches/share_plus' and grant the receiving action access
+94        -->
+95        <provider
+95-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
+96            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+96-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
+97            android:authorities="com.orthocareinnovations.smartpo.flutter.share_provider"
+97-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
+98            android:exported="false"
+98-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+99            android:grantUriPermissions="true" >
+99-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-47
+100            <meta-data
+100-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-26:53
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-67
+102                android:resource="@xml/flutter_share_file_paths" />
+102-->[:open_filex] /Users/jiyunnkim/Projects/smart-po-mobile/build/open_filex/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-50
+103        </provider>
+104        <!--
+105           This manifest declared broadcast receiver allows us to use an explicit
+106           Intent when creating a PendingItent to be informed of the user's choice
+107        -->
+108        <receiver
+108-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-34:20
+109            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+109-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-82
+110            android:exported="false" >
+110-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-37
+111            <intent-filter>
+111-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33:29
+112                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+112-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-65
+112-->[:share_plus] /Users/jiyunnkim/Projects/smart-po-mobile/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-62
+113            </intent-filter>
+114        </receiver>
+115
+116        <activity
+116-->[:url_launcher_android] /Users/jiyunnkim/Projects/smart-po-mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+117            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+117-->[:url_launcher_android] /Users/jiyunnkim/Projects/smart-po-mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+118            android:exported="false"
+118-->[:url_launcher_android] /Users/jiyunnkim/Projects/smart-po-mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+119            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+119-->[:url_launcher_android] /Users/jiyunnkim/Projects/smart-po-mobile/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+120
+121        <uses-library
+121-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+122            android:name="androidx.window.extensions"
+122-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+123            android:required="false" />
+123-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+124        <uses-library
+124-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+125            android:name="androidx.window.sidecar"
+125-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+126            android:required="false" />
+126-->[androidx.window:window:1.0.0-beta04] /Users/jiyunnkim/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+130            android:authorities="com.orthocareinnovations.smartpo.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] /Users/jiyunnkim/.gradle/caches/transforms-3/f3da131123e9b4eccc244f6ad91f009f/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jiyunnkim/.gradle/caches/transforms-3/bfb294eadd9142ad90bb62295accd8ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jiyunnkim/.gradle/caches/transforms-3/bfb294eadd9142ad90bb62295accd8ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jiyunnkim/.gradle/caches/transforms-3/bfb294eadd9142ad90bb62295accd8ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>
